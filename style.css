@@ -15,27 +15,68 @@ html, body{
     background-color:rgb(160, 199, 160);
     display: grid;
     grid-template-columns: 25% 25% 50%;
-    grid-template-rows: 25% 50% 25%;
+    grid-template-rows: 26% 56% 18%;
 }
 
 
 .tpl{
-    background-color: #cdff03;;
+    padding: 20px;
+}
+
+.tpl .square{
+    width: 4%;
+    height: 10%;
+    background-color: #000000;
+    rotate: 45deg;
 }
 
 .tpr{
-    background-color: #ff0000;
+    text-align: right;
+    padding: 20px;
 }
+
+.tpr h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.tpr h5{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+}
+
 
 
 .lcenter{
-    background-color: #009f9a;
     grid-column: 1/3;
 }
 
+.lcenter h1{
+    font-size: 5.6vw;
+    font-weight: 500;
+    font-family: 'Velvetica', sans-serif;
+    padding: 30px;
+    padding-left: 110px;
+    line-height: 2vw;
+}
+
+.lcenter h1:nth-child(2n){
+    text-align: center;
+}
+
 .lbottom{
-    background-color: #ff00ff;
     grid-column: 1/3;
+    padding: 25px;
+}
+
+.lbottom p{
+    width: 70%;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
 }
 
 .right{
